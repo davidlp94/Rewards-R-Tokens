@@ -115,7 +115,7 @@ Dev Patel [INSERT-LINKEDIN]
 
 Daniel English [INSERT-LINKEDIN]
 
-Kyle Huber  [INSERT-LINKEDIN](https://www.linkedin.com/in/huberkyle/)
+Kyle Huber  [Linkedin](https://www.linkedin.com/in/huberkyle/)
 
 ---
 Other Acknowledgements
