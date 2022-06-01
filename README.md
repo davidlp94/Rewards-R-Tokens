@@ -106,10 +106,16 @@ Once each smart contract is successfully compiled, the next step would be to run
 
 ## Contributors
 David Lee Ping [Linkedin](https://www.linkedin.com/in/david-lee-ping/)
-Alexis
-Ashok
-Dev
-Daniel
+
+Alexis Garcia [INSERT-LINKEDIN]
+
+Ashok Kumar  [INSERT-LINKEDIN]
+
+Dev Patel [INSERT-LINKEDIN]
+
+Daniel English [INSERT-LINKEDIN]
+
+Kyle Huber  [INSERT-LINKEDIN]
 
 ---
 Other Acknowledgements
