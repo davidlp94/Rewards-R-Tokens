@@ -9,30 +9,13 @@ from pathlib import Path
 reward_options_df = pd.read_csv("rewards_options.csv")
 
 # Set Webpage Name
-st.set_page_config(page_title="Rewards ‘R Tokens", layout="centered")
-st.header("Rewards 'R Tokens")
-st.subheader("Earn Rewards by Using Your Credit Card!")
+st.set_page_config(page_title="Rewards Store", layout="centered")
 
 # Rewards Balance
-st.sidebar.header("Your Rewards Balance:")
-st.sidebar.write("123XYZ Coins")
+st.header("🛍️")
+st.header("Rewards Store")
 
-st.sidebar.markdown("---")
-
-st.sidebar.header("Record a Credit Card Purchase")
-
-# Get Amount Spent
-amount_spent = st.sidebar.number_input(
-    "How much money did you spend?",min_value=1)
-amount_spent = int(amount_spent)
-
-# Get Category
-category = st.sidebar.selectbox(
-    "What did you purchase?",
-    ("Gas","Food & Dining","Travel","Other"))
-
-# Submit Transaction
-st.sidebar.button("Submit transaction")
+st.markdown("---")
 
 # Select Reward
 selected_reward = st.selectbox(
