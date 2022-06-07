@@ -15,8 +15,15 @@
 # Rewards R' Tokens
 Note: Please refer to smart contract files for complete source code.
 
+Credit card companies are facing considerable decline with respect to customer retention.
 
----
+This application contains features which are aimed at the that specific statistic.  This targeted feature requires the customer to be engaged with the credit card company and expect the customers to activate such cash back bonus when they use their credit card and recieve rewards.  
+
+This project is a centralized platform where customers can link all their credit cards to an account.  The banks themselves define rewards tokens in the form of NFTs - which are activated via achieving a spend target, customer longevity, or dates of customer significance like birthday, anniversary etc.
+
+The reward tokens get activated immediately for a duration set by the banks or customer can xchoose to activate it at a later date or for a specific transaction as per his/her wish.
+
+The points which are accumulated via purchases can be used for exchange items at the NFT stores: rewards store will be established for users to exchange their NFTs - convert your points to coffee, bagel, shoes, laptops or whatever the customer might like.
 
 ## Technologies
 
@@ -31,9 +38,11 @@ This project leverages the following tools:
 - SafeMath
 - Git Bash
 
+## Installation Guide
+
 Note: You must install and have an operating local blockchain on your machine to test and deploy the smart contracts - such as Ganache and an operating MetaMask wallet.
 
----
+## Usage
 ## Deploying Smart Contracts
 
 Note: Please refer to folder Screenshots-Videos for screenshots and videos of completed test transactions.
@@ -107,7 +116,7 @@ Once each smart contract is successfully compiled, the next step would be to run
 ## Contributors
 David Lee Ping [Linkedin](https://www.linkedin.com/in/david-lee-ping/)
 
-Alexis Garcia [INSERT-LINKEDIN]
+Alexis Garcia [Linkedin](https://www.linkedin.com/in/alexis-rose-garcia/)
 
 Ashok Kumar  [INSERT-LINKEDIN]
 
