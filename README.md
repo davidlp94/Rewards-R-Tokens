@@ -120,7 +120,7 @@ Alexis Garcia [Linkedin](https://www.linkedin.com/in/alexis-rose-garcia/)
 
 Ashok Kumar  [INSERT-LINKEDIN]
 
-Dev Patel [INSERT-LINKEDIN]
+Dev Patel [LINKEDIN](https://www.linkedin.com/in/dev-patel-sanjose/)
 
 Daniel English [INSERT-LINKEDIN]
 
