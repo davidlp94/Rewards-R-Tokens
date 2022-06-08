@@ -92,9 +92,20 @@ Above screenshot shows the connection between the two minted accounts.  Now, the
 
 Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. 
 
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.41.02%20PM.png)
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.41.27%20PM.png)
+
 The following video shows how to successfully deploy the smart contract and run test transactions.
 
+![](https://drive.google.com/file/d/1IYYnArhZov05DsWCBvChrarL91VwDYF-/view?usp=sharing)
 
+![](https://drive.google.com/file/d/11fS0aclShvnZ_BVJn79Bao1eTKfNSaU_/view?usp=sharing)
+
+----
+
+## Using The Rewards Store 
+The following is a demonstration on how to use the Rewards Store for RT tokens.  
+![](https://drive.google.com/file/d/1IxXQQjLqZ5PEFsvU-Zy6ZJo9LQRcSSuc/view?usp=sharing)
 
 
 ## Contributors
