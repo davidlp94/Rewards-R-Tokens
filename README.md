@@ -97,15 +97,15 @@ Once each smart contract is successfully compiled, the next step would be to run
 
 The following video shows how to successfully deploy the smart contract and run test transactions.
 
-![](https://drive.google.com/file/d/1IYYnArhZov05DsWCBvChrarL91VwDYF-/view?usp=sharing)
+[Initial Setup](https://drive.google.com/file/d/1IYYnArhZov05DsWCBvChrarL91VwDYF-/view?usp=sharing)
 
-![](https://drive.google.com/file/d/11fS0aclShvnZ_BVJn79Bao1eTKfNSaU_/view?usp=sharing)
+[Test Transactions](https://drive.google.com/file/d/11fS0aclShvnZ_BVJn79Bao1eTKfNSaU_/view?usp=sharing)
 
 ----
 
 ## Using The Rewards Store 
 The following is a demonstration on how to use the Rewards Store for RT tokens.  
-![](https://drive.google.com/file/d/1IxXQQjLqZ5PEFsvU-Zy6ZJo9LQRcSSuc/view?usp=sharing)
+[RT Rewards Store](https://drive.google.com/file/d/1IxXQQjLqZ5PEFsvU-Zy6ZJo9LQRcSSuc/view?usp=sharing)
 
 
 ## Contributors
