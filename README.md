@@ -82,13 +82,30 @@ contract RT_Token is ERC20, ERC20Detailed {
 
 
 The following screenshots capture each contract's successful deployment once the main source code for each smart contract is complete.
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.29%20PM.png)
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.42%20PM.png)
+Above screenshot shows the connection between the two minted accounts.  Now, there should be no problem with any transactions directly between store and account.  
 
 ---
 
 ## Testing Smart Contracts Using Ganache and Metamask
 
-Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. The following video shows how to successfully deploy the smart contract and run test transactions.
+Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. 
 
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.41.02%20PM.png)
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.41.27%20PM.png)
+
+The following video shows how to successfully deploy the smart contract and run test transactions.
+
+[Initial Setup](https://drive.google.com/file/d/1IYYnArhZov05DsWCBvChrarL91VwDYF-/view?usp=sharing)
+
+[Test Transactions](https://drive.google.com/file/d/11fS0aclShvnZ_BVJn79Bao1eTKfNSaU_/view?usp=sharing)
+
+----
+
+## Using The Rewards Store 
+The following is a demonstration on how to use the Rewards Store for RT tokens.  
+[RT Rewards Store](https://drive.google.com/file/d/1IxXQQjLqZ5PEFsvU-Zy6ZJo9LQRcSSuc/view?usp=sharing)
 
 
 ## Contributors
