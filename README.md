@@ -82,8 +82,10 @@ contract RT_Token is ERC20, ERC20Detailed {
 
 
 The following screenshots capture each contract's successful deployment once the main source code for each smart contract is complete.
+
 ![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.29%20PM.png)
 ![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.42%20PM.png)
+
 Above screenshot shows the connection between the two minted accounts.  Now, there should be no problem with any transactions directly between store and account.  
 
 ---
