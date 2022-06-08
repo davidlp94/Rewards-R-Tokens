@@ -50,58 +50,36 @@ Note: Please refer to folder Screenshots-Videos for screenshots and videos of co
 The following code imports standard ERC-20 token contracts into our solidity files. Using constructor, we are then able to build upon the imported smart contracts to our desire for our token.
 
 ```solidity
+// Set version of Solidity
 pragma solidity ^0.5.0;
 
-//  Import the following contracts from the OpenZeppelin library:
-//    * `ERC20`
-//    * `ERC20Detailed`
-//    * `ERC20Mintable`
+// Set imports from OpenZeppelin
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol";
 
-// Create a constructor for the KaseiCoin contract and have the contract inherit the
-// libraries that you imported from OpenZeppelin.
+// Establish contract name
+contract RT_Token is ERC20, ERC20Detailed {
+    address payable owner;
 
-contract KaseiCoin is ERC20, ERC20Detailed, ERC20Mintable {
+// Require that only contract owner is allowed to mint tokens
+    modifier onlyOwner {
+        require(msg.sender == owner, "You do not have permission to mint these tokens!");
+        _;
+    }
 
-    constructor(string memory name, string memory symbol, uint initial_supply)
-        ERC20Detailed(name, symbol, 18) public {
-            // constructor can stay empty
-        }
+// Fill in constructor information for RT token
+    constructor(uint initial_supply) ERC20Detailed("RT_Token", "RT", 18) public {
+        owner = msg.sender;
+        _mint(owner, initial_supply);
+    }
 
-}
-```
-
-The crowdsale smart contract can also imported and built using OpenZeppelin's Crowdsale contracts available on thier website.
-
-```solidity
-pragma solidity ^0.5.0;
-
-import "./KaseiCoin.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/emission/MintedCrowdsale.sol";
-
-
-// Have the KaseiCoinCrowdsale contract inherit the following OpenZeppelin:
-// * Crowdsale
-// * MintedCrowdsale
-contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale {
-    
-    // Provide parameters for all of the features of your crowdsale, such as the `rate`,
-    //`wallet` for fundraising, and `token`.
-    constructor(
-        uint rate,
-        address payable wallet,
-        KaseiCoin token
-    )   
-        Crowdsale(rate, wallet, token)
-        public
-    {
-        // constructor can stay empty
+// Define new function for owner to mint tokens to a specific recipient
+    function mint(address recipient, uint amount) public onlyOwner {
+        _mint(recipient, amount);
     }
 }
 ```
+
 
 The following screenshots capture each contract's successful deployment once the main source code for each smart contract is complete.
 
@@ -109,7 +87,7 @@ The following screenshots capture each contract's successful deployment once the
 
 ## Testing Smart Contracts Using Ganache and Metamask
 
-Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. The following video shows how to successfully deploy each smart contract.
+Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. The following video shows how to successfully deploy the smart contract and run test transactions.
 
 
 
