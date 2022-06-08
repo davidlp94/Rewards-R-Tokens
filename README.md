@@ -82,12 +82,18 @@ contract RT_Token is ERC20, ERC20Detailed {
 
 
 The following screenshots capture each contract's successful deployment once the main source code for each smart contract is complete.
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.29%20PM.png)
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%201.07.42%20PM.png)
+Above screenshot shows the connection between the two minted accounts.  Now, there should be no problem with any transactions directly between store and account.  
 
 ---
 
 ## Testing Smart Contracts Using Ganache and Metamask
 
-Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. The following video shows how to successfully deploy the smart contract and run test transactions.
+Once each smart contract is successfully compiled, the next step would be to run some test transactions. In our case, Ganache will serve as our local blockchain network and the injected Web3 will be MetaMask extension. 
+
+The following video shows how to successfully deploy the smart contract and run test transactions.
+
 
 
 
