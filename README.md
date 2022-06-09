@@ -113,11 +113,11 @@ David Lee Ping [Linkedin](https://www.linkedin.com/in/david-lee-ping/)
 
 Alexis Garcia [Linkedin](https://www.linkedin.com/in/alexis-rose-garcia/)
 
-Ashok Kumar  [INSERT-LINKEDIN]
+Ashok Kumar  [LINKEDIN](https://www.linkedin.com/in/msashokkumar)
 
 Dev Patel [LINKEDIN](https://www.linkedin.com/in/dev-patel-sanjose/)
 
-Daniel English [INSERT-LINKEDIN]
+Daniel English [LINKEDIN](https://www.linkedin.com/in/dsenglish/)
 
 Kyle Huber  [Linkedin](https://www.linkedin.com/in/huberkyle/)
 
