@@ -105,6 +105,7 @@ The following video shows how to successfully deploy the smart contract and run 
 
 ## Using The Rewards Store 
 The following is a demonstration on how to use the Rewards Store for RT tokens.  
+![](https://github.com/Alexisg324/Rewards-R-Tokens/blob/main/Images/Screen%20Shot%202022-06-08%20at%206.57.16%20PM.png)
 [RT Rewards Store](https://drive.google.com/file/d/1IxXQQjLqZ5PEFsvU-Zy6ZJo9LQRcSSuc/view?usp=sharing)
 
 
